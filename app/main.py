@@ -3,8 +3,8 @@ from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 
-from .library.helpers import *
-from app.routers import twoforms, unsplash, accordion
+from library.helpers import openfile
+from routers import twoforms, unsplash, accordion
 
 
 app = FastAPI()
