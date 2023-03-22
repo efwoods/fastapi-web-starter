@@ -1,8 +1,8 @@
-requests==2.27.1
+requests
 fastapi==0.72.0
 uvicorn==0.17.0
 python-dotenv==0.19.2
-aiofiles==0.8.0
+aiofiles
 python-multipart==0.0.5
 jinja2==3.0.3
 Markdown==3.3.6
